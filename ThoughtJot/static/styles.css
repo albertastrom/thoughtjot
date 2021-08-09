@@ -1,0 +1,30 @@
+.fonta
+{
+    font-family: "Sanchez", serif;
+    font-size: 28px;
+}
+
+#capsule
+{
+    border: 2px solid rgb(131, 131, 131);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 24px;
+    display: inline;
+    background-color: rgb(238, 238, 238);
+    letter-spacing: 5px;
+}
+
+#codeKey
+{
+    font-size: 20px;
+    font-family: 'Menlo', monospace;
+}
+
+.help
+{
+    width: 30%;
+}
+
+
+

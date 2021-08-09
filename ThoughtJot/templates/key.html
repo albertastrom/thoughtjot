@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block title%}
+    Key
+{% endblock %}
+
+{% block main%}
+    <h1>
+        ThoughtJot Key
+    </h1>
+    <p>Your ThoughtJot key is used to link the chrome extension to this web portal. It should not be shared with other users, but you can request a new key if your old one was compromised.</p>
+    <h3>Your key:</h3>
+    <br>
+    <p id="capsule"><<code id="codeKey">{{ key }}</code>> <br></p>
+
+    <form action="/key" method="post">
+        <button style="margin-top: 25px; margin-bottom: -15px;" type="submit" class="btn btn-primary">Reset Key</button>
+    </form>
+    
+
+    <div class="border-top pt-3" style="margin-top: 30px;">
+        <p class="text-muted" style="font-size: 24px;">
+            Need help setting up?<a class="ml-2" href="/help">Click here!</a>
+        </p>
+        
+    </div>
+{% endblock%}

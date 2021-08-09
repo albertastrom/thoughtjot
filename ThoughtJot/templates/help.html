@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title%}
+    Help
+{% endblock %}
+
+{% block main%}
+    <h1>Getting Started</h1>
+    <p>To begin using ThoughtJot, you'll need to link your account to the ThoughtJot chrome extension.</p>
+    <h4>Getting Your Key</h4>
+    <p>Once you've created your account, navigate to /key by clicking "Get Key" in the navigation bar, or by clicking <a href="/key">here</a>.</p>
+    <p>Once there, you'll see your key highlighted in pink. It will be a unique 6 character code that you can copy. It should look like this (note that your key will be different):</p>
+    <img class="help" src="static/help-images/getting_key.png">
+    <p>Once you've copied this key, you can leave the web portal.</p>
+    <h4>Linking Portal and Extension</h4>
+    <p>The next step is to input your copied key into the ThoughtJot extension. Navigate to the extension and right click on its icon. A menu like this will appear:</p>
+    <img class="help" src="static/help-images/pop_up.png">
+    <br>
+    <p>Select options and a new tab will open. It should look like this:</p>
+    <img class="help" src="static/help-images/options.png">
+    <p>Paste your key into the input box and press "Confirm". If you got an error, copy the key from the portal one more time and try to submit again. If you didn't get an error and the key in the extension now matches the one in the ThoughtJot portal then you've successfully linked your account to the extension.</p>
+{% endblock%}
