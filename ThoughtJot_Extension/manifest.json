@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "ThoughtJot",
+    "description": "Jot research notes and quick access web portal.",
+    "version": "1.0",
+    "icons": {"128": "images/icon_128.png"},
+
+    "browser_action": {
+        "default_icon": "images/icon_128.png",
+        "default_popup": "popup.html"   
+    },
+    
+    "options_page": "options.html",
+
+    "background": {
+        "scripts": ["eventPage.js"],
+        "persistent": false
+    },
+
+    "permissions": [
+        "activeTab",
+        "contextMenus",
+        "storage",
+        "tabs"
+    ]
+
+    
+
+}

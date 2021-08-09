@@ -1,0 +1,65 @@
+html, body
+{
+    
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    min-height: 90px;
+    width: 250px;
+
+}
+
+h1
+{
+    font-family: "Sanchez", serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+    color: #7dcfea;
+}
+
+a:link, a:visited
+{
+    color: black;
+    text-decoration: none;
+    outline: 0;
+}
+
+a
+{
+    opacity: 1;
+    transition: opacity 0.1s ease-in-out;
+}
+
+a:hover
+{
+    opacity: .6;
+}
+
+img
+{
+    width: 30px;
+}
+
+.modal-header
+{
+    align-items: center;
+    border-bottom: 0.5px solid gray;
+}
+
+.logo
+{
+    padding: 16px;
+}
+
+.logo-icon
+{
+    vertical-align: text-bottom;
+    margin-left: 12px;
+}
+
+#portal
+{
+    margin-top: 0px;
+}
+
